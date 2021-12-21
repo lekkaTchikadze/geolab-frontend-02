@@ -1,0 +1,36 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif; */
+.inline-block{
+    display: inline-block;
+}.container{
+    width: 1140;
+    padding: 33px 140px 58px;
+}
+body{
+    background-color: #F6F8F9;
+}
+.logo{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color:#FA6980;
+    margin: 18px 92px 17px 20px;
+}
+.nav-li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 11px;
+    color: #343638;
+    margin-right: 27px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.nav-icon{
+    width: 30px;
+    height: 30px;
+}
+.section-title{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+
+}
