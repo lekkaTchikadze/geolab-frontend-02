@@ -10,7 +10,6 @@ font-family: 'Raleway', sans-serif; */
 header{
     position: fixed;
     top: 0;
-
 }
 body{
     background-color: #F6F8F9;
@@ -74,4 +73,33 @@ body{
     height: 210px;
     margin-bottom: 100px;
 }
+/* footer */
+footer{
+    background-color: #A6ADB4;
+    height: 206px;
+}
+.footer-logo{
+    font-size: 13px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    vertical-align: top;
+    margin-right: 90px;
+}
+.footer-list{
+    vertical-align: top;
+    margin-right: 90px;
+}
+.list-stytle{
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+    vertical-align: top;
+    margin-bottom: 4px;
+}
+.footer-p{
+color:#CBD0D3;
+font-size: 11px;
+font-family: 'Poppins', sans-serif;
+}
+
 
