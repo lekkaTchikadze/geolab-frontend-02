@@ -3,8 +3,13 @@ font-family: 'Raleway', sans-serif; */
 .inline-block{
     display: inline-block;
 }.container{
-    width: 1140;
-    padding: 33px 140px 58px;
+    width: 1175;
+    padding: 33px 120px 58px;
+    display: inline-flex;
+}
+header{
+    position: fixed;
+
 }
 body{
     background-color: #F6F8F9;
@@ -14,7 +19,8 @@ body{
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     color:#FA6980;
-    margin: 18px 92px 17px 20px;
+    margin: 18px 82px 17px 20px;
+    
 }
 .nav-li{
     font-family: 'Raleway', sans-serif;
@@ -23,6 +29,7 @@ body{
     margin-right: 27px;
     margin-bottom: 50px;
     text-transform: uppercase;
+    
 }
 .nav-icon{
     width: 30px;
@@ -32,5 +39,24 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     text-transform: uppercase;
+    font-weight: bold;
+    margin: 50px 0 33px 120px; 
+}
+.box{
+    position: relative;
+}
+.section-img, .section-img2, .section-img3 {
+    width: 320px;
+    height: 310px;
+    margin-right: 40px;
+
+}
+.section-p,.section-p2,.section-p3 {
+    position: absolute;
+    top:75%;
+    left:1%;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    color: #A6ADB4;
 
 }
